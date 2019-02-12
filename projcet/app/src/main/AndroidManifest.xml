@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".select" />
-        <activity android:name=".body"></activity>
+        <activity android:name=".body" />
+        <activity android:name=".score"></activity>
     </application>
 
 </manifest>

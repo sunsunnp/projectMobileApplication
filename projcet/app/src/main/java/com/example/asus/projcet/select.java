@@ -3,6 +3,7 @@ package com.example.asus.projcet;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 
 public class select extends AppCompatActivity {
@@ -16,7 +17,7 @@ public class select extends AppCompatActivity {
         text = bundle.getString("name");
     }
 
-    public void onClick(){
+    public void body(View view){
         EditText name = findViewById(R.id.name1);
         String name1 = name.getText().toString();
         Intent intent = new Intent(this,body.class);

@@ -18,8 +18,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/select1"
             android:layout_weight="1"
-            android:text="CAR"
-            android:onClick="car"/>
+            android:text="BODY"
+            android:onClick="body"/>
 
 
 
@@ -29,7 +29,7 @@
             android:id="@+id/select2"
             android:layout_weight="1"
             android:text="BIKE"
-            android:onClick="bike"/>
+            />
 
         <Button
             android:layout_width="match_parent"
