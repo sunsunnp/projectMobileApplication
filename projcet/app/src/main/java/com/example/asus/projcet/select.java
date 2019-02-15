@@ -14,14 +14,12 @@ public class select extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select);
         Bundle bundle = getIntent().getExtras();
-        text = bundle.getString("name");
+        text = bundle.getString("NN");
     }
 
-    public void body(View view){
-        EditText name = findViewById(R.id.name1);
-        String name1 = name.getText().toString();
+    public void onClickBody(View view){
         Intent intent = new Intent(this,body.class);
-        intent.putExtra("name",text);
+        intent.putExtra("NN",text);
         startActivity(intent);
     }
 }

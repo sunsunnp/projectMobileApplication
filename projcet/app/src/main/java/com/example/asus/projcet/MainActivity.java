@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         EditText name = findViewById(R.id.name1);
         String name1 = name.getText().toString();
         Intent intent = new Intent(this,select.class);
-        intent.putExtra("name",name1);
+        intent.putExtra("NN",name1);
         startActivity(intent);
     }
 

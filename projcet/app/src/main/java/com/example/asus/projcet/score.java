@@ -14,7 +14,7 @@ public class score extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         text = bundle.getString("name");
 
-        TextView text1 = findViewById(R.id.fname);
+        TextView text1 = findViewById(R.id.score);
         text1.setText(""+text);
     }
 
